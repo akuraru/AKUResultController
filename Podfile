@@ -1,7 +1,7 @@
 # Uncomment this line to define a global platform for your project
 platform :ios, "6.0"
 
-target "AKUResultControllerTests" do
+target "AKUResultsControllerTests" do
   pod 'Kiwi/XCTest'
 end
 

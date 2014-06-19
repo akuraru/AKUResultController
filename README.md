@@ -1,8 +1,8 @@
-# AKUResultController [![Build Status](http://img.shields.io/travis/akuraru/AKUResultController.svg?style=flat)](https://travis-ci.org/akuraru/AKUResultController)
+# AKUResultsController [![Build Status](http://img.shields.io/travis/akuraru/AKUResultsController.svg?style=flat)](https://travis-ci.org/akuraru/AKUResultsController)
 
-[![Version](https://img.shields.io/cocoapods/v/AKUResultController.svg?style=flat)](http://cocoadocs.org/docsets/AKUResultController)
-[![License](https://img.shields.io/cocoapods/l/AKUResultController.svg?style=flat)](http://cocoadocs.org/docsets/AKUResultController)
-[![Platform](https://img.shields.io/cocoapods/p/AKUResultController.svg?style=flat)](http://cocoadocs.org/docsets/AKUResultController)
+[![Version](https://img.shields.io/cocoapods/v/AKUResultsController.svg?style=flat)](http://cocoadocs.org/docsets/AKUResultsController)
+[![License](https://img.shields.io/cocoapods/l/AKUResultsController.svg?style=flat)](http://cocoadocs.org/docsets/AKUResultsController)
+[![Platform](https://img.shields.io/cocoapods/p/AKUResultsController.svg?style=flat)](http://cocoadocs.org/docsets/AKUResultsController)
 
 
 Class that can be handled in the same way as the `NSFetchedResultsController` `NSMutableArray` without CoreDate
@@ -10,7 +10,7 @@ Class that can be handled in the same way as the `NSFetchedResultsController` `N
 ## Installation
 
 ``` ruby
-pod 'AKUResultController'
+pod 'AKUResultsController'
 ```
 
 ## Usage

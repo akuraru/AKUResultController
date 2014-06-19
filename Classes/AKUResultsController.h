@@ -9,7 +9,7 @@
 @protocol NSFetchedResultsControllerDelegate;
 @protocol NSFetchedResultsSectionInfo;
 
-@interface AKUResultController : NSObject {
+@interface AKUResultsController : NSObject {
 @private
     NSString *_sectionNameKeyPath;
     NSString *_sectionNameKey;

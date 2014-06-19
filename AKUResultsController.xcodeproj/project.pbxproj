@@ -7,12 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		36D30505792A49099D5225BF /* libPods-AKUResultControllerTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B51E5731BF94454097EA7C9D /* libPods-AKUResultControllerTests.a */; };
+		7130826283C7490EAF4A95AD /* libPods-AKUResultsControllerTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FD46DF513BDA437B9ECBA0B2 /* libPods-AKUResultsControllerTests.a */; };
 		73EE8DA11941B23B003E7C81 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73EE8DA01941B23B003E7C81 /* XCTest.framework */; };
 		73EE8DA21941B23B003E7C81 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73EE8D811941B23A003E7C81 /* Foundation.framework */; };
 		73EE8DA31941B23B003E7C81 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73EE8D851941B23A003E7C81 /* UIKit.framework */; };
 		73EE8DAB1941B23B003E7C81 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 73EE8DA91941B23B003E7C81 /* InfoPlist.strings */; };
-		C879018B1D8BDB9225201508 /* AKUResultController.m in Sources */ = {isa = PBXBuildFile; fileRef = C879041F79A54B4483996057 /* AKUResultController.m */; };
+		C879018B1D8BDB9225201508 /* AKUResultsController.m in Sources */ = {isa = PBXBuildFile; fileRef = C879041F79A54B4483996057 /* AKUResultsController.m */; };
 		C87907066390885240D41AEF /* SortedSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = C879004F25A830F10D79D5A7 /* SortedSpec.m */; };
 		C8790A0BC01D6466917D3C89 /* AKUArrayFetchedResultsControllerSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = C87905E84F8F4B0D636EFC75 /* AKUArrayFetchedResultsControllerSpec.m */; };
 		C8790C2D323AA09A8FD96C48 /* EmptySpec.m in Sources */ = {isa = PBXBuildFile; fileRef = C87905012DE5DE6F1B1F060A /* EmptySpec.m */; };
@@ -26,17 +26,18 @@
 		73EE8D811941B23A003E7C81 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		73EE8D831941B23A003E7C81 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		73EE8D851941B23A003E7C81 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		73EE8D9F1941B23B003E7C81 /* AKUResultControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AKUResultControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		73EE8D9F1941B23B003E7C81 /* AKUResultsControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AKUResultsControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		73EE8DA01941B23B003E7C81 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		73EE8DA81941B23B003E7C81 /* AKUResultControllerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = "AKUResultControllerTests-Info.plist"; sourceTree = "<group>"; };
+		73EE8DA81941B23B003E7C81 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		73EE8DAA1941B23B003E7C81 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		B51E5731BF94454097EA7C9D /* libPods-AKUResultControllerTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AKUResultControllerTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8E6246B63C2441B8C702930 /* Pods-AKUResultsControllerTests.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AKUResultsControllerTests.xcconfig"; path = "Pods/Pods-AKUResultsControllerTests.xcconfig"; sourceTree = "<group>"; };
 		C879004F25A830F10D79D5A7 /* SortedSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SortedSpec.m; sourceTree = "<group>"; };
-		C879041F79A54B4483996057 /* AKUResultController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AKUResultController.m; sourceTree = "<group>"; };
+		C879041F79A54B4483996057 /* AKUResultsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AKUResultsController.m; sourceTree = "<group>"; };
 		C87905012DE5DE6F1B1F060A /* EmptySpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmptySpec.m; sourceTree = "<group>"; };
 		C87905E84F8F4B0D636EFC75 /* AKUArrayFetchedResultsControllerSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AKUArrayFetchedResultsControllerSpec.m; sourceTree = "<group>"; };
 		C8790AB8E526DA4FB10DC83C /* Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Prefix.pch; sourceTree = "<group>"; };
-		C8790B55AE8EDEEF67874378 /* AKUResultController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AKUResultController.h; sourceTree = "<group>"; };
+		C8790B55AE8EDEEF67874378 /* AKUResultsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AKUResultsController.h; sourceTree = "<group>"; };
+		FD46DF513BDA437B9ECBA0B2 /* libPods-AKUResultsControllerTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AKUResultsControllerTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,7 +48,7 @@
 				73EE8DA11941B23B003E7C81 /* XCTest.framework in Frameworks */,
 				73EE8DA31941B23B003E7C81 /* UIKit.framework in Frameworks */,
 				73EE8DA21941B23B003E7C81 /* Foundation.framework in Frameworks */,
-				36D30505792A49099D5225BF /* libPods-AKUResultControllerTests.a in Frameworks */,
+				7130826283C7490EAF4A95AD /* libPods-AKUResultsControllerTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -57,8 +58,8 @@
 		17B5CE8A968C0CE183D6A256 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				C879041F79A54B4483996057 /* AKUResultController.m */,
-				C8790B55AE8EDEEF67874378 /* AKUResultController.h */,
+				C879041F79A54B4483996057 /* AKUResultsController.m */,
+				C8790B55AE8EDEEF67874378 /* AKUResultsController.h */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -66,7 +67,7 @@
 		73EE8D751941B23A003E7C81 = {
 			isa = PBXGroup;
 			children = (
-				73EE8DA61941B23B003E7C81 /* AKUResultControllerTests */,
+				73EE8DA61941B23B003E7C81 /* Tests */,
 				73EE8D801941B23A003E7C81 /* Frameworks */,
 				73EE8D7F1941B23A003E7C81 /* Products */,
 				17B5CE8A968C0CE183D6A256 /* Classes */,
@@ -74,13 +75,14 @@
 				17B5C8F4FFFEC6609F7686F0 /* AKUResultController.podspec */,
 				17B5C3A421AD5686BA74AC16 /* .travis.yml */,
 				60994127B55E4F67B8D36CB9 /* Pods-AKUResultControllerTests.xcconfig */,
+				A8E6246B63C2441B8C702930 /* Pods-AKUResultsControllerTests.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
 		73EE8D7F1941B23A003E7C81 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				73EE8D9F1941B23B003E7C81 /* AKUResultControllerTests.xctest */,
+				73EE8D9F1941B23B003E7C81 /* AKUResultsControllerTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -92,12 +94,12 @@
 				73EE8D831941B23A003E7C81 /* CoreGraphics.framework */,
 				73EE8D851941B23A003E7C81 /* UIKit.framework */,
 				73EE8DA01941B23B003E7C81 /* XCTest.framework */,
-				B51E5731BF94454097EA7C9D /* libPods-AKUResultControllerTests.a */,
+				FD46DF513BDA437B9ECBA0B2 /* libPods-AKUResultsControllerTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		73EE8DA61941B23B003E7C81 /* AKUResultControllerTests */ = {
+		73EE8DA61941B23B003E7C81 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
 				73EE8DA71941B23B003E7C81 /* Supporting Files */,
@@ -105,13 +107,13 @@
 				C87905012DE5DE6F1B1F060A /* EmptySpec.m */,
 				C879004F25A830F10D79D5A7 /* SortedSpec.m */,
 			);
-			path = AKUResultControllerTests;
+			path = Tests;
 			sourceTree = "<group>";
 		};
 		73EE8DA71941B23B003E7C81 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				73EE8DA81941B23B003E7C81 /* AKUResultControllerTests-Info.plist */,
+				73EE8DA81941B23B003E7C81 /* Info.plist */,
 				73EE8DA91941B23B003E7C81 /* InfoPlist.strings */,
 				C8790AB8E526DA4FB10DC83C /* Prefix.pch */,
 			);
@@ -121,9 +123,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		73EE8D9E1941B23B003E7C81 /* AKUResultControllerTests */ = {
+		73EE8D9E1941B23B003E7C81 /* AKUResultsControllerTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 73EE8DB31941B23B003E7C81 /* Build configuration list for PBXNativeTarget "AKUResultControllerTests" */;
+			buildConfigurationList = 73EE8DB31941B23B003E7C81 /* Build configuration list for PBXNativeTarget "AKUResultsControllerTests" */;
 			buildPhases = (
 				9C2E679A4F54412995683767 /* Check Pods Manifest.lock */,
 				73EE8D9B1941B23B003E7C81 /* Sources */,
@@ -135,9 +137,9 @@
 			);
 			dependencies = (
 			);
-			name = AKUResultControllerTests;
+			name = AKUResultsControllerTests;
 			productName = ErrorGenTests;
-			productReference = 73EE8D9F1941B23B003E7C81 /* AKUResultControllerTests.xctest */;
+			productReference = 73EE8D9F1941B23B003E7C81 /* AKUResultsControllerTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -149,7 +151,7 @@
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = azu;
 			};
-			buildConfigurationList = 73EE8D791941B23A003E7C81 /* Build configuration list for PBXProject "AKUResultController" */;
+			buildConfigurationList = 73EE8D791941B23A003E7C81 /* Build configuration list for PBXProject "AKUResultsController" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -162,7 +164,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				73EE8D9E1941B23B003E7C81 /* AKUResultControllerTests */,
+				73EE8D9E1941B23B003E7C81 /* AKUResultsControllerTests */,
 			);
 		};
 /* End PBXProject section */
@@ -191,7 +193,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Pods-AKUResultControllerTests-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Pods-AKUResultsControllerTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		9C2E679A4F54412995683767 /* Check Pods Manifest.lock */ = {
@@ -216,7 +218,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C879018B1D8BDB9225201508 /* AKUResultController.m in Sources */,
+				C879018B1D8BDB9225201508 /* AKUResultsController.m in Sources */,
 				C8790A0BC01D6466917D3C89 /* AKUArrayFetchedResultsControllerSpec.m in Sources */,
 				C8790C2D323AA09A8FD96C48 /* EmptySpec.m in Sources */,
 				C87907066390885240D41AEF /* SortedSpec.m in Sources */,
@@ -309,7 +311,7 @@
 		};
 		73EE8DB41941B23B003E7C81 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 60994127B55E4F67B8D36CB9 /* Pods-AKUResultControllerTests.xcconfig */;
+			baseConfigurationReference = A8E6246B63C2441B8C702930 /* Pods-AKUResultsControllerTests.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
@@ -317,20 +319,20 @@
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = AKUResultControllerTests/Prefix.pch;
+				GCC_PREFIX_HEADER = Tests/Prefix.pch;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "AKUResultControllerTests/AKUResultControllerTests-Info.plist";
-				PRODUCT_NAME = AKUResultControllerTests;
+				INFOPLIST_FILE = Tests/Info.plist;
+				PRODUCT_NAME = AKUResultsControllerTests;
 				WRAPPER_EXTENSION = xctest;
 			};
 			name = Debug;
 		};
 		73EE8DB51941B23B003E7C81 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 60994127B55E4F67B8D36CB9 /* Pods-AKUResultControllerTests.xcconfig */;
+			baseConfigurationReference = A8E6246B63C2441B8C702930 /* Pods-AKUResultsControllerTests.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
@@ -338,9 +340,9 @@
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = AKUResultControllerTests/Prefix.pch;
-				INFOPLIST_FILE = "AKUResultControllerTests/AKUResultControllerTests-Info.plist";
-				PRODUCT_NAME = AKUResultControllerTests;
+				GCC_PREFIX_HEADER = Tests/Prefix.pch;
+				INFOPLIST_FILE = Tests/Info.plist;
+				PRODUCT_NAME = AKUResultsControllerTests;
 				WRAPPER_EXTENSION = xctest;
 			};
 			name = Release;
@@ -348,7 +350,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		73EE8D791941B23A003E7C81 /* Build configuration list for PBXProject "AKUResultController" */ = {
+		73EE8D791941B23A003E7C81 /* Build configuration list for PBXProject "AKUResultsController" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				73EE8DAE1941B23B003E7C81 /* Debug */,
@@ -357,7 +359,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		73EE8DB31941B23B003E7C81 /* Build configuration list for PBXNativeTarget "AKUResultControllerTests" */ = {
+		73EE8DB31941B23B003E7C81 /* Build configuration list for PBXNativeTarget "AKUResultsControllerTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				73EE8DB41941B23B003E7C81 /* Debug */,

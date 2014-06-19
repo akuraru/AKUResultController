@@ -4,7 +4,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "AKUResultController.h"
+#import "AKUResultsController.h"
 
 
 @interface AKUPair : NSObject
@@ -40,7 +40,7 @@
 @property(nonatomic) NSArray *objects;
 @end
 
-@interface AKUResultController ()
+@interface AKUResultsController ()
 @property(nonatomic) NSMutableArray *fetchedObjects;
 @property(nonatomic) NSString *sectionNameKeyPath;
 @property(nonatomic) NSString *sectionNameKey;
@@ -53,7 +53,7 @@
 @property(nonatomic) NSDictionary *arrayIndexPath;
 @end
 
-@implementation AKUResultController {
+@implementation AKUResultsController {
 
 }
 - (id)initWithArray:(NSArray *)array groupedBy:(NSString *)groupedTerm withPredicate:(NSPredicate *)searchTerm sortedBy:(NSString *)sortTerm ascending:(BOOL)ascending {

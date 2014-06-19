@@ -2,4 +2,4 @@ language: objective-c
 before_install:
 - gem install xcpretty
 - gem install cocoapods
-script: xcodebuild -project AKUResultController.xcodeproj -scheme 'AKUResultController' -sdk iphonesimulator ONLY_ACTIVE_ARCH=YES clean build test | xcpretty -c
+script: xcodebuild -project AKUResultsController.xcodeproj -scheme 'AKUResultsController' -sdk iphonesimulator ONLY_ACTIVE_ARCH=YES clean build test | xcpretty -c

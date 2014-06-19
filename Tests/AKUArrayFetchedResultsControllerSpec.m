@@ -1,7 +1,7 @@
 #import "Kiwi.h"
-#import "AKUResultController.h"
+#import "AKUResultsController.h"
 
-@interface AKUResultController ()
+@interface AKUResultsController ()
 @property (nonatomic) NSString *sectionNameKeyPath;
 @property (nonatomic) NSString *sectionNameKey;
 @property (nonatomic) id sortKeys;
@@ -12,9 +12,9 @@
 
 SPEC_BEGIN(AKUResultControllerSpec)
 describe(@"AKUResultControllerc", ^{
-    __block AKUResultController *controller;
+    __block AKUResultsController *controller;
     beforeEach(^{
-        controller = [[AKUResultController alloc] initWithArray:@[] groupedBy:nil withPredicate:nil sortedBy:nil ascending:YES ];
+        controller = [[AKUResultsController alloc] initWithArray:@[] groupedBy:nil withPredicate:nil sortedBy:nil ascending:YES ];
     });
 });
 SPEC_END
